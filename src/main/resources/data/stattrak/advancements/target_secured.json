@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "stattrak:stattrak_tracker"
+    },
+    "title": {
+      "translate": "advancements.target_secured.title"
+    },
+    "description": {
+      "translate": "advancements.target_secured.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "target_secured": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:adventure/kill_a_mob"
+}
